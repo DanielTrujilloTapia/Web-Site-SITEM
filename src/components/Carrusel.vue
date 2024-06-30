@@ -11,37 +11,37 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active altura-contenedor car1" data-bs-interval="2000">
-          <div class="carousel-caption d-none d-md-block letra">
+          <div class="carousel-caption letra subida">
             <h1 class="letra">Programas de Mantenimiento</h1>
             <a href="#" @click.prevent="showPopup(1)">Ver más...</a>
           </div>
         </div>
-        <div class="carousel-item altura-contenedor car2" data-bs-interval="2000">
-          <div class="carousel-caption d-none d-md-block letra">
+        <div class="carousel-item altura-contenedor car2">
+          <div class="carousel-caption letra subida">
             <h5 class="letra">Fabricación y Montaje de Refacciones</h5>
             <a href="#" @click.prevent="showPopup(2)">Ver más...</a>
           </div>
         </div>
         <div class="carousel-item altura-contenedor car3">
-          <div class="carousel-caption d-none d-md-block letra">
+          <div class="carousel-caption letra subida">
             <h5 class="letra">Capacitación del Personal</h5>
             <a href="#" @click.prevent="showPopup(3)">Ver más...</a>
           </div>
         </div>
         <div class="carousel-item altura-contenedor car4">
-          <div class="carousel-caption d-none d-md-block letra">
+          <div class="carousel-caption letra subida">
             <h5 class="letra">Registros Electrónicos de Mantenimiento Industrial</h5>
             <a href="#" @click.prevent="showPopup(4)">Ver más...</a>
           </div>
         </div>
         <div class="carousel-item altura-contenedor car5">
-          <div class="carousel-caption d-none d-md-block letra">
+          <div class="carousel-caption letra subida">
             <h5 class="letra">Servicio de Mantenimiento Tecnológico</h5>
             <a href="#" @click.prevent="showPopup(5)">Ver más...</a>
           </div>
         </div>
         <div class="carousel-item altura-contenedor car6">
-          <div class="carousel-caption d-none d-md-block letra">
+          <div class="carousel-caption letra subida">
             <h5 class="letra">Venta de Productos Biodegradables</h5>
             <a href="#" @click.prevent="showPopup(6)">Ver más...</a>
           </div>
@@ -142,7 +142,7 @@ export default {
 
 <style>
 .altura-contenedor {
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
 }
@@ -233,5 +233,14 @@ a:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+.subida{
+  margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .letra {
+    font-size: 20px; /* Ajusta el tamaño del texto para pantallas pequeñas */
+  }
+  
 }
 </style>
