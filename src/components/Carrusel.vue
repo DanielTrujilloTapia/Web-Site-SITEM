@@ -83,8 +83,8 @@
         <span class="close" @click="hidePopup">&times;</span>
         <h5>Capacitación del Personal</h5>
         <p>Impartimos programas de capacitación personalizados para su equipo, abarcando desde el
-uso eficiente de equipos hasta las mejores prácticas en mantenimiento industrial. 
- Fortalezca las habilidades de su personal y maximice la eficiencia operativa.</p>
+          uso eficiente de equipos hasta las mejores prácticas en mantenimiento industrial. 
+          Fortalezca las habilidades de su personal y maximice la eficiencia operativa.</p>
       </div>
     </div>
 
@@ -93,8 +93,8 @@ uso eficiente de equipos hasta las mejores prácticas en mantenimiento industria
         <span class="close" @click="hidePopup">&times;</span>
         <h5>Registros Electrónicos de Mantenimiento Industrial</h5>
         <p>Implementamos sistemas avanzados de registros electrónicos, facilitando la gestión y
-documentación eficiente de todas las actividades de mantenimiento industrial. Acceda a
-información crítica de manera rápida y segura.</p>
+          documentación eficiente de todas las actividades de mantenimiento industrial. Acceda a
+          información crítica de manera rápida y segura.</p>
       </div>
     </div>
 
@@ -103,8 +103,8 @@ información crítica de manera rápida y segura.</p>
         <span class="close" @click="hidePopup">&times;</span>
         <h5>Servicio de Mantenimiento Tecnológico</h5>
         <p>Brindamos servicios de mantenimiento especializado en equipos de cómputo, redes,
-servidores y sistemas operativos Windows y Linux. Mantenga su infraestructura tecnológica
-en óptimas condiciones para un rendimiento constante.</p>
+          servidores y sistemas operativos Windows y Linux. Mantenga su infraestructura tecnológica
+          en óptimas condiciones para un rendimiento constante.</p>
       </div>
     </div>
 
@@ -113,10 +113,10 @@ en óptimas condiciones para un rendimiento constante.</p>
         <span class="close" @click="hidePopup">&times;</span>
         <h5>Venta de Productos Biodegradables</h5>
         <p>Ofrecemos una gama de productos biodegradables para limpieza industrial: <br>
-- Desengrasante Industrial: Elimine eficazmente la grasa y residuos industriales. <br>
-- Quita Sarro Industrial: Proteja sus equipos contra la acumulación de sarro.<br>
-- Desengrasante, Detergente y Desinfectante: Productos versátiles para mantener
-ambientes higiénicos y seguros.</p>
+          - Desengrasante Industrial: Elimine eficazmente la grasa y residuos industriales. <br>
+          - Quita Sarro Industrial: Proteja sus equipos contra la acumulación de sarro.<br>
+          - Desengrasante, Detergente y Desinfectante: Productos versátiles para mantener
+          ambientes higiénicos y seguros.</p>
       </div>
     </div>
   </div>
@@ -241,6 +241,27 @@ a:hover {
   .letra {
     font-size: 20px; /* Ajusta el tamaño del texto para pantallas pequeñas */
   }
+  .ventana{
+    margin-top: 50px;
+  }
+  .ventana-content{
+    width: 80%;
+    max-width: 600px;
+    height: 600px;
+  }
+  .ventana-content h5{
+    font-size: 25px;
+  }
+  .ventana-content p{
+    font-size: 20px;
+  }
   
+}
+@media (max-width: 810px) {
+  .ventana-content{
+    width: 80%;
+    max-width: 600px;
+    height: 600px;
+  }
 }
 </style>
