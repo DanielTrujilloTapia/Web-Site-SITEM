@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/HelloWorld.vue'
+import Proyectos from '../components/ProyectosComponent.vue'
 </script>
 
 <template>
   <main>
-   <h1>Proyectos</h1>
+   <Proyectos></Proyectos>
   </main>
 </template>

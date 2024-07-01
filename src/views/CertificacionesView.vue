@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/HelloWorld.vue'
+import Certificaciones from '../components/CertificacionesComponent.vue'
 </script>
 
 <template>
   <main>
-    <h1>Certificaciones</h1>
+    <Certificaciones></Certificaciones>
   </main>
 </template>
