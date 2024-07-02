@@ -4,7 +4,7 @@
      <div class="toolbar-container">
        <div class="logo">
         <div>
-          <img class="icono" src="/src/assets/Logo-unscreen.gif" alt="">
+          <img class="icono" src="/src/assets/Logo-SITEM.gif" alt="">
         </div>
         <a style="color: black" href="/">SITEM</a>
       </div>
@@ -23,7 +23,7 @@
   <div class="container-fluid">
     <div class="logo">
         <div>
-          <img class="icono-reducido" src="/src/assets/Logo-unscreen.gif" alt="">
+          <img class="icono-reducido" src="/src/assets/Logo-SITEM.gif" alt="">
         </div>
         <a class="navbar-brand" href="/">SITEM</a>
       </div>
@@ -142,13 +142,13 @@ color: rgb(0, 0, 0);
 }
 .icono{
   margin-top: 7px;
-       width: 80px;
+       width: 50px;
        height: 50px;
        
     }
     .icono-reducido{
       margin-top: 7px;
-       width: 70px;
+       width: 50px;
        height: 40px;
     }
 

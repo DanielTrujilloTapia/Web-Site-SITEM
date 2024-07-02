@@ -2,7 +2,7 @@
   <div class="fondo-principal">
     <div class="contenedor">
       <div class="logotipo">
-        <img class="gif" src="/src/assets/Logo-unscreen.gif" alt="">
+        <img class="gif" src="/src/assets/Logo-SITEM.gif" alt="">
       </div>
     </div>
     <div>
@@ -54,7 +54,7 @@
   .logotipo {
     margin-top: 50px;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     height: auto;
   }
 
