@@ -113,6 +113,9 @@
         font-weight: 500;
         font-style: italic;
     }
+    .card{
+        margin-bottom: 20px;
+    }
 }
 @media(max-width:500px){
     .texto{
