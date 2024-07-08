@@ -53,7 +53,6 @@
    </div>    
 </template>
 <style>
-   /* Estilos para la barra de navegación */
 .toolbar {
  background-color: #ffffff;
  padding: 10px 20px;
@@ -154,16 +153,14 @@ color: rgb(0, 0, 0);
 
 
 @media (max-width: 1000px) {
- .display{
-   display: block;
- }
- .displaynavoriginal{
-    display: none;
+    .display{
+      display: block;
+    }
+    .displaynavoriginal{
+        display: none;
+    }
+    .icono-reducido{
+      width: 40px;
+    }
 }
-.icono{
-  width: 50px;
-}
-}
-
-
 </style>
