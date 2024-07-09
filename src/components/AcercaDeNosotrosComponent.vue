@@ -117,20 +117,6 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 20rem;">
-                    <div class="card-body c2">
-                        <h5 class="card-title">CONCRETOS FORTALEZA DEL BAJIO</h5>
-                        <p class="card-text">Concretos Fortaleza se creo para atender las necesidades en la industria de la construcción. Cuenta con la experiencia y profesionalismo para la producción y suministro del concreto</p>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 20rem;">
-                    <div class="card-body c3">
-                        <h5 class="card-title">COCRETOS APAXCO DEL BAJIO</h5>
-                        <p class="card-text">Es una empresa 100% mexicana, está dedicados a la producción y suministro de concreto premezclado utiliza la mejor tecnología para lograr máxima calidad y ofrecer el mejor servicio</p>
-                    </div>
-                </div>
-
                 <div class="card c4" style="width: 20rem;">
                     <img style="margin-top: 25px;" src="/src/assets/Cemex.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -239,7 +225,7 @@
     .cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin: 50px 0 80px;
     }
     .card-body {
@@ -266,12 +252,6 @@
     }
     .c1:hover {
         background: linear-gradient(to bottom left, rgb(112, 225, 253) 20%, rgb(255, 126, 121) 90%);
-    }
-    .c2:hover {
-        background: linear-gradient(to bottom left, rgb(90, 129, 151) 20%, white 50%);
-    }
-    .c3:hover {
-        background: linear-gradient(to bottom left, rgb(255, 189, 134) 20%, rgb(125, 132, 224) 50%);
     }
     .c4:hover {
         background: linear-gradient(to bottom left, rgb(255, 92, 92) 20%, rgb(122, 122, 255) 50%);
