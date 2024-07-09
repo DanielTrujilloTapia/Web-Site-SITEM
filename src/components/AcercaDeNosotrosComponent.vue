@@ -160,23 +160,23 @@
     .mision-vision {
         margin-top: 30px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         margin-bottom: 100px;
     }
     .img {
-        width: 100%;
-        max-width: 300px;
+        width: 600px;
+        
     }
     .mision, .vision {
         box-shadow: 4px 4px 8px rgba(87, 181, 123, 0.5);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         transition: ease-in .4s;
         margin: 10px;
         width: 100%;
-        max-width: 600px;
+        max-width: 800px;
     }
     .mision:hover, .vision:hover {
         transform: scale(1.1);
@@ -294,6 +294,9 @@
         .img {
         width: 100%;
         max-width: 150px;
+    }
+    .img-valores{
+        max-width: 200px;
     }
     .texto-mision-vision{
         font-size: 16px;
