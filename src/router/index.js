@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import AcercaDeNosotros from '../views/AcercaDeNosotrosView.vue'
 import Servicios from '../views/ServiciosView.vue'
 import Certificaciones from '../views/CertificacionesView.vue'
-import ProyectosClientes from '../views/ProyectosView.vue'
 import Contacto from '../views/ContactoView.vue'
 
 
@@ -37,11 +36,6 @@ const router = createRouter({
       path: '/certificaciones',
       name: 'certificaciones',
       component: Certificaciones 
-    },
-    {
-      path: '/proyectos',
-      name: 'proyectos',
-      component: ProyectosClientes 
     },
     {
       path: '/contacto',

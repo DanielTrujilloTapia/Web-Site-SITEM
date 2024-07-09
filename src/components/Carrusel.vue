@@ -267,5 +267,8 @@ a:hover {
     max-width: 600px;
     height: 600px;
   }
+  .car1 ,.car2,.car4,.car5{
+    background-size: cover;
+  }
 }
 </style>

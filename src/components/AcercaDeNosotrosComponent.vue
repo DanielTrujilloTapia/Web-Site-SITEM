@@ -274,13 +274,13 @@
         .img {
         width: 100%;
         max-width: 150px;
-    }
-    .img-valores{
-        max-width: 200px;
-    }
-    .texto-mision-vision{
-        font-size: 16px;
-    }
+        }
+        .img-valores{
+            max-width: 200px;
+        }
+        .texto-mision-vision{
+            font-size: 16px;
+        }
         .texto-mision-vision, .texto-valores, .texto-exp, .texto-trabajo {
             width: auto;
         }

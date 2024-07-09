@@ -13,7 +13,6 @@
          <li><a href="/acercadenosotros">Acerca de Nosotros</a></li>
          <li><a href="/servicios">Servicios</a></li>
          <li><a href="/certificaciones">Certificaciones</a></li>
-         <li><a href="/proyectos">Proyectos/clientes</a></li>
          <li><a href="/contacto">Contacto</a></li>
        </ul>
      </div>
@@ -38,11 +37,10 @@
       </div>
       <div class="offcanvas-body">
         <ul class="nav-reducida">
-          <li><a href="/acercadenosotros">Acerca de Nosotros</a></li>
-          <li><a href="/servicios">Servicios</a></li>
-          <li><a href="/certificaciones">Certificaciones</a></li>
-          <li><a href="/proyectos">Proyectos/clientes</a></li>
-          <li><a href="/contacto">Contacto</a></li>
+          <li class="lista"><a href="/acercadenosotros">Acerca de Nosotros</a></li>
+          <li class="lista"><a href="/servicios">Servicios</a></li>
+          <li class="lista"><a href="/certificaciones">Certificaciones</a></li>
+          <li class="lista"><a href="/contacto">Contacto</a></li>
         </ul>
       </div>
     </div>
@@ -53,6 +51,9 @@
    </div>    
 </template>
 <style>
+.lista{
+  margin:10px;
+}
 .toolbar {
  background-color: #ffffff;
  padding: 10px 20px;
