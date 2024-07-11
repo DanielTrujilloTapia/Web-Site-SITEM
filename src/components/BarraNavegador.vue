@@ -11,7 +11,6 @@
        <ul class="toolbar-nav">
          <li><a href="/acercadenosotros">Acerca de Nosotros</a></li>
          <li><a href="/servicios">Servicios</a></li>
-         <li><a href="/certificaciones">Certificaciones</a></li>
          <li><a href="/contacto">Contacto</a></li>
        </ul>
      </div>
@@ -38,7 +37,6 @@
         <ul class="nav-reducida">
           <li class="lista"><a href="/acercadenosotros">Acerca de Nosotros</a></li>
           <li class="lista"><a href="/servicios">Servicios</a></li>
-          <li class="lista"><a href="/certificaciones">Certificaciones</a></li>
           <li class="lista"><a href="/contacto">Contacto</a></li>
         </ul>
       </div>
