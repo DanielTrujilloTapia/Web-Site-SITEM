@@ -72,7 +72,7 @@
     text-align: justify;
     padding: 30px;
     border: 20px solid transparent;
-    border-image: linear-gradient(to bottom, #BFD8DA 0%, #2FABAB 100%) 1;
+    border-image: linear-gradient(to bottom, #cbe0e1 0%, #57b57b80 100%) 1;
 }
 /* SIN BORDE */
 /* .contact-company {
