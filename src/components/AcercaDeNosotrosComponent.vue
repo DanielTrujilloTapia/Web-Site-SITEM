@@ -220,7 +220,7 @@
         margin:50px;
         margin-bottom: 100px;
     }
-    .img-exp, .img-trabajo {
+    .img-exp,.img-trabajo{
         width: 100%;
         max-width: 400px;
         max-height: 400px;
@@ -340,6 +340,9 @@
         }
         .texto-mision-vision, .texto-valores, .texto-exp, .texto-trabajo {
             width: auto;
+        }
+        .texto-trabajo,.texto-exp{
+            font-size: 16px;
         }
         .imagen-cert{
         width: 300px;

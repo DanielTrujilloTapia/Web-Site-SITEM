@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AcercaDeNosotros from '../views/AcercaDeNosotrosView.vue'
 import Servicios from '../views/ServiciosView.vue'
-import Certificaciones from '../views/CertificacionesView.vue'
 import Contacto from '../views/ContactoView.vue'
 
 
@@ -31,11 +30,6 @@ const router = createRouter({
       path: '/servicios',
       name: 'Servicios',
       component: Servicios 
-    },
-    {
-      path: '/certificaciones',
-      name: 'certificaciones',
-      component: Certificaciones 
     },
     {
       path: '/contacto',
