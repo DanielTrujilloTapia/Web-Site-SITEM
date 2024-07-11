@@ -187,7 +187,7 @@ a:hover {
 
 .letra {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .ventana {
@@ -208,20 +208,20 @@ a:hover {
   padding: 20px;
   border: 1px solid #888;
   width: 50%;
-  max-width: 600px;
-  height: 500px;
+  max-width: 400px;
+  height: 300px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
 .ventana-content h5 {
-  font-size: 35px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 18px;
 }
 
 .ventana-content p {
-  font-size: 25px;
+  font-size: 15px;
   line-height: 1.5;
 }
 

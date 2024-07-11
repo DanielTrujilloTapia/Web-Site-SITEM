@@ -52,9 +52,8 @@
   }
 
   .logotipo {
-    margin-top: 50px;
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     height: auto;
   }
 
@@ -66,26 +65,26 @@
   .empresa {
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .texto-principal {
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .texto-secundario {
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   @media (max-width: 800px) {
     .texto-principal {
       font-size: 50px;
     }
-
+   
     .texto-secundario {
       font-size: 20px;
     }

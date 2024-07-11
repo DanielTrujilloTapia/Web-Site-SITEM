@@ -4,11 +4,10 @@
      <div class="toolbar-container">
        <div class="logo">
         <div>
-          <img class="icono" src="/src/assets/Logo-SITEM.gif" alt="">
+          <img class="icono" src="/src/assets/Logo-SITEM.gif" alt="Logotipo SITEM">
         </div>
         <a style="color: black" href="/">SITEM</a>
       </div>
-
        <ul class="toolbar-nav">
          <li><a href="/acercadenosotros">Acerca de Nosotros</a></li>
          <li><a href="/servicios">Servicios</a></li>
@@ -56,8 +55,9 @@
 }
 .toolbar {
  background-color: #ffffff;
- padding: 10px 20px;
+ padding: 5px;
  box-shadow: 0 4px 8px rgba(87, 181, 123, 0.5);
+ max-height: 75px;
 }
 
 .toolbar-container {
@@ -69,7 +69,7 @@
 .logo {
   display: flex;
   flex-direction: row;
- font-size: 1.5em;
+ font-size: 1.0em;
 }
 
 .toolbar-nav {
@@ -86,6 +86,7 @@
 .toolbar-nav a {
  color: rgb(0, 0, 0);
  text-decoration: none;
+ font-size: 0.9em;
  padding: 10px;
 }
 
@@ -141,9 +142,9 @@ color: rgb(0, 0, 0);
   box-shadow: 0 4px 8px rgba(87, 181, 123, 0.5);
 }
 .icono{
-  margin-top: 7px;
-       width: 50px;
-       height: 50px;
+  margin-top: 5px;
+       width: 40px;
+       height: 40px;
        
     }
     .icono-reducido{

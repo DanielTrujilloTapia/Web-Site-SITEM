@@ -105,7 +105,7 @@
         </div>
 
         <h1 class="titulo">Clientes</h1>
-        <p style="font-size:xx-large ; text-align: center;">Contamos con la confianza de empresas de alto renombre a nivel nacional e internacional como lo son:</p>
+        <p style="font-size:x-large ; text-align: center;">Contamos con la confianza de empresas de alto renombre a nivel nacional e internacional como lo son:</p>
 
         <div class="clientes">
             <div class="cards">
@@ -136,6 +136,21 @@
                 </div>
             </div>
         </div>
+
+        <h1 class="titulo">Certificaciones/Capacitaciones</h1>
+        <div class="certificaciones">
+            <div>
+                <img class="imagen-cert" src="/src/assets/certificacion.jpg" alt="imagen-cert">
+            </div>
+            <div class="contenido-certificaciones">
+                <ul>
+                    <li>Certificación en normas de seguridad industrial.</li>
+                    <li>Capacitación en buenas prácticas de manufactura.</li>
+                </ul>
+            </div>
+            <img class="imagen-c" src="/src/assets/certificacion.jpg" alt="imagen-cert">
+        </div>
+
     </div>
 </template>
 
@@ -152,7 +167,6 @@
     }
     .img {
         width: 600px;
-        
     }
     .mision, .vision {
         box-shadow: 4px 4px 8px rgba(87, 181, 123, 0.5);
@@ -162,7 +176,7 @@
         transition: ease-in .4s;
         margin: 10px;
         width: 100%;
-        max-width: 800px;
+        max-width: 600px;
     }
     .mision:hover, .vision:hover {
         transform: scale(1.1);
@@ -172,7 +186,7 @@
     }
     .texto-mision-vision {
         padding: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .valores {
         display: flex;
@@ -182,7 +196,7 @@
     }
     .img-valores {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
         height: auto;
     }
     .texto-valores {
@@ -196,23 +210,25 @@
         align-items: center;
         margin: 10px;
         width: 100%;
-        max-width: 600px;
+        max-width: 400px;
     }
     .experiencia {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         box-shadow: 4px 4px 8px rgba(87, 181, 123, 0.5);
-        margin: 20px 0 100px;
+        margin:50px;
+        margin-bottom: 100px;
     }
     .img-exp, .img-trabajo {
         width: 100%;
         max-width: 400px;
+        max-height: 400px;
     }
     .texto-exp, .texto-trabajo {
         padding: 20px;
         font-size: 20px;
-        max-width: 600px;
+        max-width: 400px;
     }
     .equipo-trabajo {
         display: flex;
@@ -220,7 +236,8 @@
         flex-direction: row-reverse;
         justify-content: space-around;
         box-shadow: 4px 4px 8px rgba(87, 181, 123, 0.5);
-        margin: 20px 0 40px;
+        margin:50px;
+        margin-bottom: 100px;
     }
     .cards {
         display: flex;
@@ -232,8 +249,12 @@
         box-shadow: 4px 4px 8px rgba(87, 181, 123, 0.5);
         font-size: 16px;
     }
+    .card-text{
+        text-align: center;
+    }
     .card-title {
         font-size: 18px;
+        text-align: center;
     }
     .imagen-cards {
         width: 100%;
@@ -260,7 +281,32 @@
         background: linear-gradient(to bottom left, rgb(255, 255, 121) 20%, rgb(255, 114, 114) 50%);
     }
 
-    @media (max-width: 768px) {
+    .certificaciones{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .imagen-cert{
+        width: 300px;
+        height: 300px;
+    }
+    .imagen-c{
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+    .contenido-certificaciones{
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+    }
+    @media(max-width:1220px){
+        .imagen-c{
+      display: none
+    }
+    }
+    @media (max-width: 830px) {
         .mision-vision{
             margin-top: 80px;
         }
@@ -268,8 +314,19 @@
             flex-direction: column;
             text-align: center;
         }
+        .contenido-certificaciones{
+            font-size: 16px;
+        }
+        .experiencia,.equipo-trabajo{
+            justify-content: center;
+            align-items: center;
+            margin:20px;
+        }
         .img-valores, .img-exp, .img-trabajo {
             max-width: 100%;
+        }
+        .img-exp,.img-trabajo{
+            max-width: 200px;
         }
         .img {
         width: 100%;
@@ -284,5 +341,9 @@
         .texto-mision-vision, .texto-valores, .texto-exp, .texto-trabajo {
             width: auto;
         }
+        .imagen-cert{
+        width: 300px;
+        height: 300px;
+    }
     }
 </style>
