@@ -55,7 +55,7 @@
 .contact-title {
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 30px;
     transform: translateY(-50%);
     color: white;
 }
