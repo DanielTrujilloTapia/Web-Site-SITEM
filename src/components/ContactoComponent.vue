@@ -9,14 +9,14 @@
                 <h5>¿Cómo podemos ayudarte?</h5>
                 <br>
                 <p><b>Nombre:</b></p>
-                <input type="text" class="inputC" id="Name">
+                <input type="text" class="inputC" />
                 <p><b>Correo:</b></p>
-                <input type="text" class="inputC" id="Email"/>
+                <input type="text" class="inputC" />
                 <p><b>Teléfono:</b></p>
-                <input type="text" maxlength="10" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="inputC" id="Phone"/>
+                <input type="text" maxlength="10" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="inputC"/>
                 <p><b>Mensaje:</b></p>
-                <textarea class="inputC" rows="3" id="message"></textarea>
-                <button type="button" class="send-button" id="send"><b>Enviar</b></button>
+                <textarea class="inputC" rows="3"></textarea>
+                <button type="button" class="send-button"><b>Enviar</b></button>
             </div>
             <div class="contact-info-container">
                 <div class="contact-information">
@@ -110,6 +110,9 @@
     border-radius: 5px;
     padding: 3px;
     margin: 2px 0;
+}
+textarea.inputC{
+    resize:none;
 }
 .line-left {
     height: 2.5px;
