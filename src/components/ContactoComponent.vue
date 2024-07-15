@@ -259,3 +259,48 @@ textarea.inputC{
     }
 }
 </style>
+
+<script>
+export default {
+    data() {
+        return {
+            name: '',
+            email: '',
+            phone: '',
+            message: ''
+        }
+    },
+    methods: {
+        async ClearInputs(){
+            this.name = '';
+            this.email = '';
+            this.phone = '';
+            this.message = '';
+        },
+        async sendEmail() {
+            try {
+                const response = await fetch('http://localhost:5000/send', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: this.name,
+                        email: this.email,
+                        phone: this.phone,
+                        message: this.message
+                    })
+                });
+                const data = await response.text();
+                alert(data);
+                this.ClearInputs();
+            } catch (error) {
+                alert('Error al enviar el correo');
+            }
+        }
+    }
+}
+
+</script>
+
+
