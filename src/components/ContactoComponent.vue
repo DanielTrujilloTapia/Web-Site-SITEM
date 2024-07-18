@@ -300,7 +300,6 @@ textarea.inputC {
 </style>
 
 <script>
-<<<<<<< HEAD
 import Swal from "sweetalert2";
 
 export default {
@@ -364,7 +363,7 @@ export default {
   },
 };
 </script>
-=======
+
 export default {
     data() {
         return {
@@ -407,5 +406,3 @@ export default {
 
 </script>
 
-
->>>>>>> f3ecafda5e6b1e3c7dd2761ccd27a08d8334e4e3
